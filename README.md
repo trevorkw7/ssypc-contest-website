@@ -1,0 +1,1 @@
+# ssypc-contest-website
