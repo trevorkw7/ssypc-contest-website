@@ -4,7 +4,7 @@ import { Container } from './nav.css';
 
 const Nav = () => (
   <Container>
-    
+    <ul>
       <li>
         <Link to="/submit">Submit</Link>
       </li>
