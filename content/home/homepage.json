@@ -9,15 +9,17 @@
       "link": "/about"
     },
     {
-      "title": "Contest Details (Coming Soon)",
+      "title": "Contest Details",
       "copy": "Rules, Categories, Dates, Prizes, and How to Enter",
-      "image": "../images/gallery/Skyline.jpg"
+      "image": "../images/gallery/Skyline.jpg",
+      "link": "/details"
       }
       ,
     {
       "title": "Judges and Sponsors (Coming Soon)",
       "copy": "Who's looking at your photos? Where are the prizes coming from?",
-      "image": "../images/gallery/I-90_Bellevue.jpg"
+      "image": "../images/gallery/I-90_Bellevue.jpg",
+      "link": "/judges_sponsors"
     }
     
   ]

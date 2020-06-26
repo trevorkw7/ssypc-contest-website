@@ -12,7 +12,11 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+      Calling all high school students in Seattle! Interested in photography?
+      </Title>
+      <br/>
+      <Title as="h2" size="large">
+      Join us this July by entering your photos into the Seattle Summer Youth Photography Contest (SSYPC).
       </Title>
       <Modal/>
     </Box>

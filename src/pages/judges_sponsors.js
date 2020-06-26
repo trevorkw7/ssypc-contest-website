@@ -2,19 +2,18 @@ import React from 'react'
 import Title from 'components/title';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Form from 'components/form'
-import { Link } from 'gatsby';
+
 
 export default function SubmitPage() {
     return (
         <Layout>
             <Box>
                 <Title>
-                    First <Link to="/details">read</Link> the rules.
-                    Then fill out the form and submit your photo below.
+                We are currently looking for judges and sponsors for the competition.
                 </Title>
+                <br/>
+                <h2>Please email trevorkw7@gmail.com if you are someone you know is interested in judging or sponsoring the SSYPC.</h2>
             </Box>
-           <Form/>
         </Layout>
     )
 }

@@ -6,11 +6,18 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/details">Details</Link>
       </li>
       <li>
         <Link to="/submit">Submit</Link>
       </li>
+      <li>
+        <Link to="/about">Judges & Sponsors</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      
     </ul>
   </Container>
 );
