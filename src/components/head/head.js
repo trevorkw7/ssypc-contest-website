@@ -1,3 +1,4 @@
+  
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
@@ -45,10 +46,7 @@ const Head = ({
 
     <meta content="website" property="og:type" />
     <meta content={siteTitle} property="og:site_name" />
-    <meta content={social.fbAppId} property="fb:app_id" />
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content={`@${social.twitter}`} name="twitter:site" />
-    <meta content={`@${social.twitter}`} name="twitter:creator" />
     <meta content={pageTitleFull} name="twitter:text:title" />
     <meta content={canonical} property="og:url" />
     <meta content={canonical} name="twitter:url" />
@@ -190,10 +188,7 @@ const HeadWithQuery = props => (
             siteDescription
             siteUrl
             themeColor
-            social {
-              twitter
-              fbAppId
-            }
+           
           }
         }
       }
