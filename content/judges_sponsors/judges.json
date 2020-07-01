@@ -1,0 +1,44 @@
+{
+    "title": "Home",
+    "content": "intro.md",
+    "gallery": [
+        {
+            "title": "Chris Fabregas",
+            "copy": "Chris Fabregas is the founder and owner of Chris Fabregas Fine Art Photography, a wildly popular business based in Seattle, Washington. Fabregas is passionate about creating photographic art that motivates people to see what inspires beauty in their lives.  Chris recently won the Bing search engine national photography contest, which featured his image on the search engines homepage. His short films have won first place at the Boston Film Festival and he has also been featured on the Ellen DeGeneres Show. ",
+            "image": "../images/gallery/chris_fabregas.jpg",
+            "links":[
+                {
+                    "name": "Instagram",
+                    "link": "https://www.instagram.com/chrisfabregas"
+                },
+                {
+                    "name": "Facebook",
+                    "link": "https://www.facebook.com/chrisfabregas"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://www.twitter.com/chrisfabregas"
+                },
+                {
+                    "name": "Tiktok",
+                    "link": "https://www.tiktok.com/@therealchrisfabregas"
+                },
+                {
+                    "name": "Website",
+                    "link": "https://chrisfabregasfineartprints.com"
+                }
+            ] 
+        },
+        {
+            "title": "Jaime Flores",
+            "copy": "Jaime Flores is a photographer based out of Pasco, Washington. Jaime started doing photography as a hobby in the summer of 2018 and learned the art of photography by watching numerous YouTube videos, as well as lots of practice. A year after beginning to do photography, he officially went into business under the company name Digital Trends Media. Mostly known for his portraits, Jaime also does a variety of types of photography such as real estate, weddings/events, business/inventory, nature, architecture, etc.",
+            "image": "../images/gallery/jaime_flores.jpg",
+            "links":[
+                {
+                    "name": "Instagram",
+                    "link": "https://www.instagram.com/dtmportraits/"
+                }
+            ]
+        }
+    ]
+}
