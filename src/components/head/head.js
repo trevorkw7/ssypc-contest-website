@@ -65,19 +65,19 @@ const Head = ({
     <meta content={themeColor} name="msapplication-TileColor" />
     <meta content="/icons/mstile-70x70.png" name="msapplication-square70x70" />
     <meta
-      content="/icons/mstile-144x144.png"
+      content="/icons/144x144.png"
       name="msapplication-square144x144"
     />
     <meta
-      content="/icons/mstile-150x150.png"
+      content="/icons/ms-icon-150x150.png"
       name="msapplication-square150x150"
     />
     <meta
-      content="/icons/mstile-310x150.png"
+      content="/icons/ms-icon-310x150.png"
       name="msapplication-wide310x150"
     />
     <meta
-      content="/icons/mstile-310x310.png"
+      content="/icons/ms-icon-310x310.png"
       name="msapplication-square310x310"
     />
 

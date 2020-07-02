@@ -1,4 +1,23 @@
 {
   "title": "About",
-  "content": "content.md"
+  "content": "content.md",
+  "gallery": [
+    {
+        "title": "Trevor Kwan",
+        "copy": "Trevor Kwan is a rising high school senior who currently attends Newport High School in Bellevue, Washington. Saving up for his first DSLR in 8th Grade, Trevor quickly found a strong passion for documentary, travel, and street photography. You'll often find him shooting street photos at pike place market, around westlake center, and at local Seattle parks. ",
+        "image": "../images/gallery/Trevor_Profile.jpg",
+        "links":[
+            {
+                "name": "Instagram",
+                "link": "https://www.instagram.com/tk7.photo/"
+            }
+        ] 
+    },
+    {
+        "title": "Manmeet Ranu",
+        "copy": "Manmeet Ranu is an avid amateur photographer living in Bellevue, WA. He has done a lot of photography work for the various FIRST robotics teams that he was in (Newport Robotics Group and RoboThunder). He considers most of his photography to fall into the category of street photography and candid photography. ",
+        "image": "../images/gallery/Manmeet_Profile.JPG",
+        "links":[]
+    }
+  ]
 }
