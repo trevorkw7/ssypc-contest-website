@@ -1,7 +1,7 @@
 <br/>
 
 ## Times and Dates
-The SSYPC Contest will begin on July 3rd at 9:00AM PST and end on August 1st at 9:00AM PST.
+The SSYPC Contest will begin on July 8rd at 9:00AM PST and end on August 1st at 9:00AM PST.
 <br/>
 
 ## Rules
