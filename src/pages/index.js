@@ -12,11 +12,11 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-      Calling all high school students in Seattle! Interested in photography?
+      Calling all high school students in Seattle! Interested in photography? 
       </Title>
       <br/>
       <Title as="h2" size="large">
-      Join us this July by entering your photos into the Seattle Summer Youth Photography Contest (SSYPC).
+        Enter your photos into the Seattle Summer Youth Photography Contest from July 9th to August 1st for a chance to win awards and over $100 in prizes!
       </Title>
       <Modal/>
     </Box>

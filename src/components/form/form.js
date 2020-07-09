@@ -1,7 +1,14 @@
 import React from 'react'
 import { UploadButton,Button ,Label, StyledForm, Input, StyledFieldSet, StyledFormWrapper} from './form.css';
+import {Link} from 'gatsby'
 
 export default function Form() {
+    const [file, setFile] = React.useState(null)
+    
+    function renderPreview(e){
+        setFile(URL.createObjectURL(e.target.files[0]));
+    }
+
     return (
         <StyledFormWrapper>
         <StyledForm action="/successful" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -39,10 +46,21 @@ export default function Form() {
                 </StyledFieldSet>
 
                 <Label htmlFor="upload">Upload (JPG or PNG, Up to 25MB) </Label>
-                <input accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
-      
+                <input onChange={renderPreview} accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
+                <div >
+                    {file ? <img src={file} style={{maxWidth: '50vw', maxHeight: '50vh'}} alt='preview'/> : null}
+                </div>
+
                 <div data-netlify-recaptcha="true"></div>
-            <ul className="actions">
+                <br/>
+                <input type="checkbox" id="Rules agreement" name="Rules agreement" required/>
+                <label htmlFor="Rules agreement">I hereby confirm the photograph I am submitting is an original work <span style={{fontWeight: 'bold'}}> photographed by me between July 9th, 2020 and August 1st, 2020. </span></label>
+                <br/>
+                <br/>
+                <input type="checkbox" id="Rules agreement2" name="Rules agreement2" required/>
+                <label htmlFor="Rules agreement2">I agree to the rules and terms and conditions outlined in the <Link to="/details">details page</Link>.</label>
+
+            <ul style={{paddingTop: '20px'}}className="actions">
                 <li>
                     <Button type="submit" value="Submit" className="special" />
                 </li>

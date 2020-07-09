@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Item from 'components/avatar/item';
 import { Container } from './avatar.css';
 
-const Avatar = ({ items }) => (
-  <Container>
+const Avatar = ({ items, number }) => (
+  <Container number={number}>
     {items.map((item, i) => (
       <Item {...item} key={i} />
     ))}
@@ -13,6 +13,7 @@ const Avatar = ({ items }) => (
 
 Avatar.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  size:  PropTypes.number,
 };
 
 export default Avatar;

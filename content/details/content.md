@@ -1,13 +1,13 @@
 <br/>
 
 ## Times and Dates
-The SSYPC Contest will begin on July 8rd at 9:00AM PST and end on August 1st at 9:00AM PST.
+The SSYPC Contest will begin on July 9rd at 9:00AM PST and end on August 1st at 9:00AM PST.
 <br/>
 
 ## Rules
-1. All photo submissions must be taken by a student that is currently enrolled in high school or a student will be enrolled in high school in the fall of 2020.
+1. All photo submissions must be originally photographed by a student that is currently enrolled in high school or a student will be enrolled in high school in the fall of 2020.
 2.	All photo submissions must contain photos taken within the contest time period: 
-July 3rd – August 1st . Submitted photos will have metadata checked to ensure this rule is enforced.
+July 9rd – August 1st . Submitted photos will have metadata checked to ensure this rule is enforced.
 3.	Students may only submit a maximum of 1 photo for each category.
 4.	Students are prohibited from submitting the same photo to multiple categories.
 5.	All submitted photos must be in the JPEG or PNG format and be less than 25MB in size.
@@ -28,7 +28,9 @@ July 3rd – August 1st . Submitted photos will have metadata checked to ensure 
 |             | Overall Winner                                                          | Best Abstract                                                                     | Best Documentary                                                                     | Best Landscape                                                                     | Best Portrait                                                                     | Best Still Life                                                                     |
 |-------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **Description** | Awarded to the student with the highest scoring  photo in any category. | Awarded to the student  with the highest scoring photo  in the abstract category. | Awarded to the student  with the highest scoring photo  in the documentary category. | Awarded to the student  with the highest scoring photo  in the landscape category. | Awarded to the student  with the highest scoring photo  in the portrait category. | Awarded to the student  with the highest scoring photo  in the still life category. |
-| **Prize**       | TBD                                                                     | TBD                                                                               | TBD                                                                                  | TBD                                                                                | TBD                                                                               | TBD                                                                                 |
+| **Prize**       |$50 Amazon Gift Card + Category Winner Prize                                                                    | Winner's choice of an 8x10 or 8x12 print of their winning photo from Panda Lab                                                                               | Winner's choice of an 8x10 or 8x12 print of their winning photo from Panda Lab                                                                                  | Winner's choice of an 8x10 or 8x12 print of their winning photo from Panda Lab                                                                                 | Winner's choice of an 8x10 or 8x12 print of their winning photo from Panda Lab                                                                               | Winner's choice of an 8x10 or 8x12 print of their winning photo from Panda Lab                                                                                  |
+
+<br/>
 
 ## Terms and Conditions
 By submitting their photos to the SSYPC, participants agree to grant the SSYPC free of charge the right to use the photo in any manner and media, including without limitation, the right to publish, adapt, distribute, copy, display or translate in printed or electronic media even if they are not the winning entries.

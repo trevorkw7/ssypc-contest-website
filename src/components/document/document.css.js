@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledDiv = styled.div`
+  
     li {
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
         line-height: 1;
@@ -42,12 +43,15 @@ export const StyledDiv = styled.div`
         width: 100%;
         table-layout: fixed;
       }
-      @media screen and (min-width: 900px) {
-            table{
-                width: 90vw
-                max-width: 500px;
-            }
-        }
+
+        @media screen and (min-width: 800px) {
+          table{
+              max-width: 500px;
+              width: 90vw  
+              
+          }
+          width: 90vw
+      }
 
       table caption {
         font-size: 1.5em;

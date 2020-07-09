@@ -12,6 +12,11 @@ export default function SubmitPage() {
                 <Title>
                     First <Link to="/details">read</Link> the rules.
                     Then fill out the form and submit your photo below.
+                  
+                </Title>
+                <br/>
+                <Title>
+                To submit multiple photos (you may submit one photo per category), please re-submit this form with the same name, email, and high school.
                 </Title>
             </Box>
            <Form/>

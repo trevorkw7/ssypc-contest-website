@@ -6,15 +6,16 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/submit">Submit</Link>
+        <Link to="/details">Details</Link>
       </li>
       <li>
-        <Link to="/judges_sponsors">Judges & Sponsors</Link>
+        <Link to="/submit">Submit</Link>
       </li>
+
       <li>
         <Link to="/about">About</Link>
       </li>
-      
+
     </ul>
   </Container>
 );
