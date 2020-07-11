@@ -45,7 +45,7 @@ export default function Contact() {
       <StyledForm
         name="file-upload"
         method="post"
-        action="/success"
+        action="/successful"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
@@ -64,8 +64,37 @@ export default function Contact() {
             <br />
             <Input type="text" name="name" onChange={handleChange} />
           </Label>
-      
-    
+
+          
+          <Label>Email:
+          <br />
+            <Input type="text" name="email" id="email" required/>
+          </Label>
+
+          <Label htmlFor="high-school">Current High School
+            <br/>
+            <Input type="text" name="high-school" id="high-school" required/>
+          </Label>
+        
+          <StyledFieldSet>
+                    <legend>Photo Category</legend>
+                        <label>
+                        <input type="radio" name="photo-category" value="Documentary" required/>Documentary
+                        </label>
+                        <label>
+                        <input type="radio" name="photo-category" value="Landscape"/>Landscape
+                        </label>
+                        <label>
+                        <input type="radio" name="photo-category" value="Portrait"/>Portrait
+                        </label>
+                        <label>
+                        <input type="radio" name="photo-category" value="Still Life"/>Still Life
+                        </label>
+                        <label>
+                        <input type="radio" name="photo-category" value="Abstract"/>Abstract
+                        </label>  
+            </StyledFieldSet>
+
           <Label>
           Upload (JPG or PNG, Up to 25MB)
             <br />
