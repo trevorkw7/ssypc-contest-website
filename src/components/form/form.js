@@ -14,26 +14,7 @@ function encode(data) {
   }
 
 export default function Form() {
-    const [state, setState] = React.useState({})
-
     
-    function renderPreview(e){
-        setState({ ...state, [e.target.name]: e.target.value })
-    }
-
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        const form = e.target
-        fetch('/', {
-          method: 'POST',
-          body: encode({
-            'form-name': form.getAttribute('name'),
-            ...state,
-          }),
-        })
-          .then(() => navigate(form.getAttribute('action')))
-          .catch((error) => alert(error))
-      }
 
     return (
         <StyledFormWrapper>
@@ -48,6 +29,9 @@ export default function Form() {
           </p>
           <p>
             <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <label>Upload <input type="file" name="upload"/></label>
           </p>
           <p>
             <button type="submit">Send</button>
