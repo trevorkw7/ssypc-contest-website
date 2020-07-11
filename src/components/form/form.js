@@ -45,11 +45,8 @@ export default function Form() {
                         </label>  
                 </StyledFieldSet>
 
-                <Label htmlFor="upload">Upload (JPG or PNG, Up to 25MB) </Label>
-                <input accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
-                {/* <div >
-                    {file ? <img src={file} style={{maxWidth: '50vw', maxHeight: '50vh'}} alt='preview'/> : null}
-                </div> */}
+                <Label htmlFor="upload">Upload (JPG or PNG) </Label>
+                <input style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" />
 
                 <div data-netlify-recaptcha="true"></div>
                 <br/>
