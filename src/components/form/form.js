@@ -1,5 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
+import { UploadButton,Button ,Label, StyledForm, Input, StyledFieldSet, StyledFormWrapper} from './form.css';
+
 import Layout from '../layout'
 
 function encode(data) {
@@ -38,41 +40,46 @@ export default function Contact() {
   }
 
   return (
-    <>
-      <h1>File Upload</h1>
-      <form
+    <StyledFormWrapper>
+      
+      <StyledForm
         name="file-upload"
         method="post"
-        action="/thanks/"
+        action="/success"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
       >
-        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+
         <input type="hidden" name="form-name" value="file-upload" />
+        
         <p hidden>
-          <label>
+          <Label>
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
-          </label>
+          </Label>
         </p>
-        <p>
-          <label>
+        
+          <Label>
             Your name:
             <br />
-            <input type="text" name="name" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            File:
+            <Input type="text" name="name" onChange={handleChange} />
+          </Label>
+      
+    
+          <Label>
+          Upload (JPG or PNG, Up to 25MB)
             <br />
             <input type="file" name="attachment" onChange={handleAttachment} />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-    </>
+          </Label>
+       
+     
+          <ul style={{paddingTop: '20px'}}className="actions">
+                <li>
+                    <Button type="submit" value="Submit" className="special" />
+                </li>
+            </ul>
+       
+      </StyledForm>
+      </StyledFormWrapper>
   )
 }
