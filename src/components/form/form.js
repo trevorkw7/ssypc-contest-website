@@ -1,17 +1,43 @@
 import React from 'react'
 import { UploadButton,Button ,Label, StyledForm, Input, StyledFieldSet, StyledFormWrapper} from './form.css';
 import {Link} from 'gatsby'
+import { navigate } from 'gatsby-link'
 
+function encode(data) {
+    const formData = new FormData()
+  
+    for (const key of Object.keys(data)) {
+      formData.append(key, data[key])
+    }
+  
+    return formData
+  }
+  
 export default function Form() {
-    // const [file, setFile] = React.useState(null)
+    const [state, setState] = React.useState({})
+
     
-    // function renderPreview(e){
-    //     setFile(URL.createObjectURL(e.target.files[0]));
-    // }
+    function renderPreview(e){
+        setState({ ...state, [e.target.name]: e.target.value })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const form = e.target
+        fetch('/', {
+          method: 'POST',
+          body: encode({
+            'form-name': form.getAttribute('name'),
+            ...state,
+          }),
+        })
+          .then(() => navigate(form.getAttribute('action')))
+          .catch((error) => alert(error))
+      }
 
     return (
         <StyledFormWrapper>
-        <StyledForm action="/successful" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <StyledForm onSubmit={handleSubmit} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
            
@@ -45,8 +71,9 @@ export default function Form() {
                         </label>  
                 </StyledFieldSet>
 
-                <Label htmlFor="upload">Upload (JPG or PNG) </Label>
-                <input style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" />
+                <Label htmlFor="upload">Upload (JPG or PNG, Up to 25MB) </Label>
+                <input onChange={renderPreview} accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
+               
 
                 <div data-netlify-recaptcha="true"></div>
                 <br/>
