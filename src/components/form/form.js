@@ -68,30 +68,30 @@ export default function Contact() {
           
           <Label>Email:
           <br />
-            <Input type="text" name="email" id="email" required/>
+            <Input type="text" name="email" id="email" onChange={handleChange} />
           </Label>
 
           <Label htmlFor="high-school">Current High School
             <br/>
-            <Input type="text" name="high-school" id="high-school" required/>
+            <Input type="text" name="high-school" id="high-school" onChange={handleChange} />
           </Label>
         
           <StyledFieldSet>
                     <legend>Photo Category</legend>
                         <label>
-                        <input type="radio" name="photo-category" value="Documentary" required/>Documentary
+                        <input type="radio" name="photo-category" value="Documentary" onChange={handleChange}/>Documentary
                         </label>
                         <label>
-                        <input type="radio" name="photo-category" value="Landscape"/>Landscape
+                        <input type="radio" name="photo-category" value="Landscape" onChange={handleChange}/>Landscape
                         </label>
                         <label>
-                        <input type="radio" name="photo-category" value="Portrait"/>Portrait
+                        <input type="radio" name="photo-category" value="Portrait" onChange={handleChange}/>Portrait
                         </label>
                         <label>
-                        <input type="radio" name="photo-category" value="Still Life"/>Still Life
+                        <input type="radio" name="photo-category" value="Still Life" onChange={handleChange}/>Still Life
                         </label>
                         <label>
-                        <input type="radio" name="photo-category" value="Abstract"/>Abstract
+                        <input type="radio" name="photo-category" value="Abstract" onChange={handleChange}/>Abstract
                         </label>  
             </StyledFieldSet>
 
