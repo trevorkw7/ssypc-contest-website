@@ -61,7 +61,7 @@ export default function Contact() {
 
                 <p hidden>
                     <Label>
-                        Don’t fill this out: <input name="bot-field" onChange={handleChange} required />
+                        Don’t fill this out: <input name="bot-field" onChange={handleChange} />
                     </Label>
                 </p>
 
