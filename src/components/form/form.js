@@ -3,17 +3,17 @@ import { UploadButton,Button ,Label, StyledForm, Input, StyledFieldSet, StyledFo
 import {Link} from 'gatsby'
 
 export default function Form() {
-    const [file, setFile] = React.useState(null)
+    // const [file, setFile] = React.useState(null)
     
-    function renderPreview(e){
-        setFile(URL.createObjectURL(e.target.files[0]));
-    }
+    // function renderPreview(e){
+    //     setFile(URL.createObjectURL(e.target.files[0]));
+    // }
 
     return (
         <StyledFormWrapper>
         <StyledForm action="/successful" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="Submissions" />
            
                 <Label htmlFor="name">Name</Label>
                 <Input type="text" name="name" id="name" required/>
@@ -46,10 +46,10 @@ export default function Form() {
                 </StyledFieldSet>
 
                 <Label htmlFor="upload">Upload (JPG or PNG, Up to 25MB) </Label>
-                <input onChange={renderPreview} accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
-                <div >
+                <input accept=".png, .PNG, .jpg, .JPG, .jpeg, .JPEG" style={{fontSize: '1.5rem',padding: '20px 20px 20px 0px'}} type="file" name="upload" id="upload" required />
+                {/* <div >
                     {file ? <img src={file} style={{maxWidth: '50vw', maxHeight: '50vh'}} alt='preview'/> : null}
-                </div>
+                </div> */}
 
                 <div data-netlify-recaptcha="true"></div>
                 <br/>
