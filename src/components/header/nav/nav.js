@@ -8,9 +8,9 @@ const Nav = () => (
       <li>
         <Link to="/details">Details</Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="/submit">Submit</Link>
-      </li>
+      </li> */}
 
       <li>
         <Link to="/about">About</Link>
