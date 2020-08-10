@@ -11,7 +11,8 @@ July 9rd – August 1st . Submitted photos will have metadata checked to ensure 
 3.	Students may only submit a maximum of 1 photo for each category.
 4.	Students are prohibited from submitting the same photo to multiple categories.
 5.	All submitted photos must be in the JPEG or PNG format and be less than 25MB in size.
-6.  Photos that contain the following will be immediately disqualified: violence, profanity, sex, direct attacks on individuals or organizations
+6.  Students may only win in a maximum of 2 photo categories.
+7.  Photos that contain the following will be immediately disqualified: violence, profanity, sex, direct attacks on individuals or organizations
 
 <br/>
 
