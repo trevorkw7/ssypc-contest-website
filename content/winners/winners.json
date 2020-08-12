@@ -1,0 +1,98 @@
+{
+  "title": "2020 SSYPC Winner Gallery",
+  "gallery": [
+     {
+      "image": "../Winning_Photos/Abstract_First.jpg",
+      "category": "Abstract 2020",
+      "place": "1st Place",
+      "name": "Jacob Assouline"
+     },
+     {
+      "image": "../Winning_Photos/Abstract_Second.jpg",
+      "category": "Abstract 2020",
+      "place": "2nd Place",
+      "name": "Tevin Abeysekera"
+     },
+     {
+      "image": "../Winning_Photos/Abstract_Third.jpeg",
+      "category": "Abstract 2020",
+      "place": "3rd Place",
+      "name": "Brett Udris"
+     },
+     {
+      "image": "../Winning_Photos/Documentary_First.jpg",
+      "category": "Documentary 2020",
+      "place": "1st Place",
+      "name": "Ella Guo"
+     },
+     {
+      "image": "../Winning_Photos/Documentary_Second.jpeg",
+      "category": "Documentary 2020",
+      "place": "2nd Place",
+      "name": "Tejasvi Narayanan"
+     },
+     {
+      "image": "../Winning_Photos/Documentary_Third.jpg",
+      "category": "Documentary 2020",
+      "place": "3rd Place",
+      "name": "Jacob Assouline"
+     },
+     {
+      "image": "../Winning_Photos/Landscape_First.jpg",
+      "category": "Landscape 2020",
+      "place": "1st Place",
+      "name": "Jacob Assouline"
+     },
+     {
+      "image": "../Winning_Photos/Landscape_Second.jpeg",
+      "category": "Landscape 2020",
+      "place": "2nd Place",
+      "name": "Josh Chou"
+     },
+     {
+      "image": "../Winning_Photos/Landscape_Third.jpg",
+      "category": "Landscape 2020",
+      "place": "3rd Place",
+      "name": "Brennen Tse"
+     },
+     {
+      "image": "../Winning_Photos/Portrait_First.png",
+      "category": "Portrait 2020",
+      "place": "1st Place",
+      "name": "Linda Yan"
+     },
+     {
+      "image": "../Winning_Photos/Portrait_Second.jpeg",
+      "category": "Portrait 2020",
+      "place": "2nd Place",
+      "name": "Tejasvi Narayanan"
+     },
+     {
+      "image": "../Winning_Photos/Portrait_Third.jpg",
+      "category": "Portrait 2020",
+      "place": "3rd Place",
+      "name": "Ella Guo"
+     },
+     {
+      "image": "../Winning_Photos/Still_Life_First.jpg",
+      "category": "Still Life 2020",
+      "place": "1st Place",
+      "name": "Ashley Chen"
+     },
+     {
+      "image": "../Winning_Photos/Still_Life_Second.jpg",
+      "category": "Still Life 2020",
+      "place": "2nd Place",
+      "name": "Ella Guo"
+     },
+     {
+      "image": "../Winning_Photos/Still_Life_Third.jpg",
+      "category": "Still Life 2020",
+      "place": "3rd Place",
+      "name": "Bayla Cohen-Knott"
+     }
+
+
+    
+  ]
+}

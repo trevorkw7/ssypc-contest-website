@@ -46,7 +46,7 @@ export default class Modal extends PureComponent {
 
     return (
       <>
-        <Button><Link style={{textDecoration: 'none'}} to="/judges_sponsors">About Our Judges</Link></Button>
+        <Button><Link style={{textDecoration: 'none'}} to="/winners_2020">2020 Winner Gallery</Link></Button>
 
       </>
     );

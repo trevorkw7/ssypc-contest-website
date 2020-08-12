@@ -12,7 +12,11 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-      Submissions are now closed! Our judges are now beginning to grade your submissions. Results will be annouced on the week of August 9th!
+      After having our judges score every one of the 50+ photos submitted to the contest, we are pround to announce the winners of the 2020 Seattle Summer Youth Photography Contest!
+      </Title>
+      <br/>
+      <Title>
+      Winners who qualify for prizes will be reached out to shortly via email.
       </Title>
       <Modal/>
     </Box>
